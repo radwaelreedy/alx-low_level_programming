@@ -1,21 +1,8 @@
-#inlude "main.h"
-/**
- * main - Entry point
- * Description: prints _putchar to stdout'
- * Return: always 0
-*/
+#ifndef MAIN_HEADER_FILE
+#define MAIN_HEADER_FILE
+#include <stdio.h>
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
 
-int main(void)
-{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\ n');
-
-	return (0);
-}
+#endif
