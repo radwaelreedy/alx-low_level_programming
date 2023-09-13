@@ -1,6 +1,12 @@
-#ifndef MAIN_HEADER_FILE
-#define MAIN_HEADER_FILE
-#include <stdio.h>
-int _putchar(char c);
+#include "main.h"
+int main(void)
+{
+	char str[] = "_putchar";
+	int ch;
 
-#endif
+	for(ch = 0;ch < 8;ch++)
+		_putchar(str[ch]);
+	_putchar('\n');
+
+	return (0);
+}
