@@ -2,7 +2,7 @@
 
 /**
  * add - add two integers
- * 
+ *
  * @a: first input
  * @b: second input
  *
