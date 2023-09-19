@@ -2,6 +2,7 @@
 
 /**
  * rev_string - prints reverse string
+ *
  * @s: string paramete input
  *
  * Return: Nothing
