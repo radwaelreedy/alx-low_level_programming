@@ -5,14 +5,14 @@
  * @s: pointer to put the constant
  * @c: constant
  *
- * Return: pointer to 8
+ * Return: pointer to null
 */
 
 char *_strchr(char *s, char c)
 {
 	int itr;
 
-	for (itr = 0; s[itr] >= '\ 0'; itr++)
+	for (itr = 0; s[itr] >= '\0'; itr++)
 	{
 		if (s[itr] == c)
 		{
